@@ -1,0 +1,11 @@
+<script>
+    let listaDeNomes = ["Amanda", "Eduardo", "Fábio", "Evelin", "César", "José", "Ivo", "Eva", "Otávio", "Inez", "Osmar", "Ulisses"];
+
+    let vogais = [];
+    for(let item of listaDeNomes){
+        if(item[0] == "A" || item[0] == "E" || item[0] === "I" || item[0] === "O" || item[0] === "U") {
+            vogais.push(item)
+        }
+    }
+    alert(`${vogais.sort().join(" - ")}`)
+    </script>

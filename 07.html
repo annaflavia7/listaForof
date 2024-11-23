@@ -1,0 +1,12 @@
+<script>
+    
+    let listaDeNumeros = [1, 2.5, -3, 4, 8.9, 4.789, -25.6, 42];
+    let num = [];
+
+    for (const item of listaDeNumeros) {
+        if (item >= 0 && item % 1 == 0) {
+            num.push(item);
+        }
+    }
+    alert(`Numero inteiros e positivos: ${num.join(", ")}`)
+</script>

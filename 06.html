@@ -1,0 +1,11 @@
+<script>
+    let listaDeNomes = ["João Pedro", "Gabriel José", "Ulisses Joao", "Pedro Henrique", "João da Silva", "João Henrique", "Alisson João"];
+
+    let joaos = [];
+    for(let item of listaDeNomes){
+        if(item.toUpperCase().search("João") >= 0 || item.toUpperCase().search("JOAO") >= 0){
+            joaos.push(item);
+        }
+    }
+    document.write(joaos.join(" -"))
+</script>
